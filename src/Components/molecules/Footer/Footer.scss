@@ -1,6 +1,6 @@
 @include mobile {
     body {
-        display: flex;
+        display: block;
         background-color: transparent;
         font-weight: 300;
         font-family: 'Satoshi', sans-serif;
@@ -66,6 +66,8 @@
     }
     .containerIconSocialLinks1 img {
         align-self: center;
+        width: 30px;
+        height: 30px;
         margin: 5%;
     }
     .containerIconSocialLinks2 {
@@ -76,6 +78,8 @@
     .containerIconSocialLinks2 img {
         margin: 5%;
         align-self: center;
+        width: 30px;
+        height: 30px;
     }
 
 
@@ -160,7 +164,7 @@
 
 @include tablet {
     body {
-        display: flex;
+        display: block;
 
     }
     .footer {
@@ -195,21 +199,16 @@
         font-weight: 400;
         width: inherit !important;
     }
+    .containerSocialLinks div {
+        display: inline-block;
+        margin-left: 4%;
+    }
     .containerIconSocialLinks2 {
-        display: none !important;
+        // display: none !important;
+        
     }
     .containerIconSocialLinks1 {
-        display: none !important;
-    }
-    .containerIconSocialLinkDesktop {
-        display: flex;
-        flex-direction: row !important;
-        width: inherit;
-    }
-    .containerIconSocialLinkDesktop img {
-        height: 24px;
-        width: 24px;
-        object-fit: fill;
+        // display: none !important;
     }
     .containerMenuCategoriesOurCompany {
         display: flex;

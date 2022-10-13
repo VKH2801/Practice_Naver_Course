@@ -2,10 +2,11 @@
 @import "./bases.scss";
 @import "./maxxins.scss";
 
+
 // ------ Import Components ----------------------------------------------------
 
 // Organisms Components
-
+@import "../Components/organisms/ManageOrder.scss";
 
 // Molecules Components
 @import "../Components/molecules/Feature/Feature.scss";
@@ -13,8 +14,10 @@
 @import "../Components/molecules/MoreInfo/MoreInfo.scss";
 @import "../Components/molecules/PageHeader/PageHeader.scss";
 @import "../Components/molecules/AssignFooter/AssignFooter.scss";
+@import "../Components/molecules/ManageOrderHeader/ManageOrderHeader.scss";
+@import "../Components/molecules/TabManagerOrder/TabManagerOrder.scss";
+
 
 // Atoms Components
 @import "../Components/atoms/Button/Button.scss";
 @import "../Components/atoms/FeatureCard/FeatureCard.scss";
-@import "../Components/atoms/TextInput/TextInput.scss";
